@@ -1,22 +1,15 @@
-Reprocessing Example
+Space Game
 ---
+Made with [ReasonML](https://reasonml.github.io/en) and [Reprocessing](https://github.com/schmavery/reprocessing).
 
-Clone this repo to get started with [Reprocessing](https://github.com/schmavery/reprocessing).
-
-Demos are on other branches:
-
-- [Flappy Bird](https://github.com/bsansouci/reprocessing-example/tree/livestream-flappybird)
-- [2048](https://github.com/bsansouci/reprocessing-example/tree/2048)
-
-...and more on the [Reprocessing repo](https://github.com/schmavery/reprocessing#projects-using-reprocessing).
+[Demo.](https://kimjo77.github.io/reprocessing-space-game)
 
 ## How to
 ```
-git clone https://github.com/bsansouci/reprocessing-example.git
+git clone https://github.com/kimjo77/reprocessing-space-game.git
 ```
 
 ### Install
-
 ```
 npm install
 ```
@@ -31,8 +24,6 @@ npm run build
 npm start
 ```
 
-To build to JS run `npm run build:web` and then run a static server, like `python -m SimpleHTTPServer` or `python -m http.server` (Python 3.0 and above) and go to `localhost:8000`. If you're using safari you can simply open the `index.html` and tick `Develop > Disable Cross-Origin Restrictions`.
+To build to JS run `npm run build:web` and then run a static server, like `python -m http.server` (Python 3.0 and above) and go to `localhost:8000`. If you're using safari you can simply open the `index.html` and tick `Develop > Disable Cross-Origin Restrictions`.
 
 To build to native run `npm run build:native` and run `npm run start:native`
-
-The build system used is [bsb-native](https://github.com/bsansouci/bucklescript).

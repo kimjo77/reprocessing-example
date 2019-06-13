@@ -1,7 +1,7 @@
 {
   "name": "reprocessing-example",
   "scripts": {
-    "start": "start ./lib/bs/bytecode/indexhot.byte",
+    "start": "start ./lib/bs/bytecode/indexhot.byte.exe",
     "start:native": "start ./lib/bs/native/index.native.exe",
     "build": "bsb -make-world",
     "build:web": "bsb -make-world -backend js",
