@@ -1,8 +1,8 @@
 {
   "name": "reprocessing-example",
   "scripts": {
-    "start": "./lib/bs/bytecode/indexhot.byte",
-    "start:native": "./lib/bs/native/index.native",
+    "start": "start ./lib/bs/bytecode/indexhot.byte",
+    "start:native": "start ./lib/bs/native/index.native.exe",
     "build": "bsb -make-world",
     "build:web": "bsb -make-world -backend js",
     "build:native": "bsb -make-world -backend native",
@@ -12,6 +12,6 @@
     "reprocessing": "0.3.0"
   },
   "devDependencies": {
-    "bsb-native": "^4.0.1100"
+    "bsb-native": "^4.0.7000"
   }
 }
