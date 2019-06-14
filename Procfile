@@ -1,0 +1,1 @@
+web: apt install libsdl2-dev fcitx-libs-dev libibus-1.0-dev
