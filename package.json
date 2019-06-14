@@ -1,5 +1,10 @@
 {
   "name": "reprocessing-example",
+  "engines": {
+    "node": "=10.15.3",
+    "npm": "=6.4.1"
+  },
+  "engineStrict": true,
   "scripts": {
     "start": "start ./lib/bs/bytecode/indexhot.byte.exe",
     "start:native": "start ./lib/bs/native/index.native.exe",
@@ -13,5 +18,10 @@
   },
   "devDependencies": {
     "bsb-native": "^4.0.7000"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kimjo77/reprocessing-space-game.git"
+  },
+  "license": "UNLICENSED"
 }
